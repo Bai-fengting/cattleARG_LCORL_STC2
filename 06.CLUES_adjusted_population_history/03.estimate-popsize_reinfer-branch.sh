@@ -1,0 +1,12 @@
+~/software/relate_v1.1.9_x86_64_static/scripts/EstimatePopulationSize/EstimatePopulationSize_mod.sh \
+-i Average_100_individuals_Chr1_Hudson_pararelate \
+-m 1.26e-8 \
+--poplabels Average.poplabels \
+--noanc 0 \
+--threads 64 \
+--years_per_gen 6 \
+--num_iter 10 \
+--threshold 0.5 \
+--bins 2,6.6,0.1 \
+--seed 1 \
+-o Average_100_individuals_Chr1_Hudson_pararelate_update

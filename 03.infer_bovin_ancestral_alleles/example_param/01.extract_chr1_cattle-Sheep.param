@@ -1,0 +1,10 @@
+input.file=../01.fww_multi-align/chr1.maf.gz
+input.file.compression=gzip
+output.log=log/chr1_cattle_Sheep.maffilter.log
+maf.filter=Subset(species=(ARS_UCD_addY, Sheep), \ 
+strict=yes, \ 
+keep=no, \ 
+remove_duplicates=no), \ 
+Output(file=01.pairwise_align/chr1_ARS_UCD_addY-Sheep.maf.gz, \ 
+compression=gzip, \ 
+mask=no)

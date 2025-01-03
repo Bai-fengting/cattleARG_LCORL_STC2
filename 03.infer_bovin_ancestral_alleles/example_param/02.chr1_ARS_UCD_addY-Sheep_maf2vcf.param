@@ -1,0 +1,8 @@
+input.file=01.pairwise_align/chr1_ARS_UCD_addY-Sheep.maf.gz
+input.file.compression=gzip
+output.log=log/chr1_ARS_UCD_addY-Sheep.maffilter..vcf.log
+maf.filter=VcfOutput(file=02.pairwise_align_vcf/chr1_ARS_UCD_addY-Sheep.vcf.gz,\ 
+compression=gzip,\ 
+reference=ARS_UCD_addY,\ 
+genotypes=(ARS_UCD_addY,Sheep),\ 
+all=yes)
